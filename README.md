@@ -10,9 +10,9 @@ c.	We don’t override other methods because there is no need. Just like any oth
 6.	They both use markdown syntax to get the format of the text. In bitbucket you can use markdown for controls with pull and for README.md files.
 7.	The test is failing because it runs into the if statement which throws an exception that is then caught, so it misses where timeNow is specified with current millis. So, when it then is run through finally it is still null, thus creates a NullPointerException.
 8.	Since the code never accounted for the value of Time Now in the scenario when we get a Timer Exception the finally block throws a null pointer exception which is the one that is used and TimeException gets lost.
-9.	
+9.	Done
  
-10.	I’m confused what I’m supposed to submit here
+10.	I’m confused what I’m supposed to submit here-Done
  
 11.	Exceptions:
 a.	NullPointerException falls under the category of RuntimeException.
